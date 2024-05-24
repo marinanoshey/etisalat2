@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(235, 232, 232)
+  }
+  
+  app-job-status, app-daily-job-status {
+    flex: 1;
+    margin: 10px;
+  }

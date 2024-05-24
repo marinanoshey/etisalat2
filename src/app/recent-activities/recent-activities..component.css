@@ -1,0 +1,14 @@
+.big{
+    background-color: rgb(235, 232, 232) !important;
+}
+.card{
+    border: 1px solid #d8d8d8;
+    width: 25%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 15px;
+  border-radius: 30px;
+}
+.container {
+    display: flex;
+   
+  }

@@ -1,0 +1,28 @@
+<div class="daily-job-status-card">
+    <h3>My Daily Jobs Status</h3>
+    <p>Latest Update On 10-05-2023</p>
+    <div class="status-container">
+      <div class="status">
+        <p>{{ dailyStatus.totalJobs }}</p>
+        <span>All Jobs</span>
+      </div>
+      <div class="status">
+        <p>{{ dailyStatus.success }}</p>
+        <span>Success</span>
+      </div>
+      <div class="status">
+        <p>{{ dailyStatus.inProgress }}</p>
+        <span>In Progress</span>
+      </div>
+      <div class="status">
+        <p>{{ dailyStatus.failed }}</p>
+        <span>Failed</span>
+      </div>
+      <div class="status">
+        <i class="fa-thin fa-hourglass"></i>
+        <p>{{ dailyStatus.retry }}</p>
+        <span>Retry</span>
+      </div>
+    </div>
+  </div>
+  
